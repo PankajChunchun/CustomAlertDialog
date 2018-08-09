@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorPrimaryButtonText">#FFFFFF</color>
+    <color name="colorPrimaryDarkButtonText">#DE000000</color>
+
+    <color name="colorPositiveBtnSelected">#FF4E00</color>
+    <color name="colorPositiveBtnNormal">#FF6000</color>
+    <color name="customDialogBackground">#FFFFFF</color>
+
+    <color name="colorCntrlHighlightBorderlessBtn">#DDDDDD</color>
+    <color name="colorBorderlessButtonTextDisabled">#45000000</color>
+    <color name="colorBorderlessButtonTextNormal">#FF0074B4</color>
+</resources>

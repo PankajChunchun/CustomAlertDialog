@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="custom_dialog_top_padding">20dp</dimen>
+
+    <dimen name="tablet_fixed_dialog_extra_width">64dp</dimen>
+    <dimen name="dialog_margin_top">24dp</dimen>
+    <dimen name="dialog_margin_top_above_L">48dp</dimen>
+    <dimen name="dialog_margin_bottom">34dp</dimen>
+    <dimen name="dialog_margin_left">16dp</dimen>
+    <dimen name="dialog_margin_right">16dp</dimen>
+    <dimen name="dialog_title_text_size">20sp</dimen>
+    <dimen name="dialog_content_text_size">14sp</dimen>
+    <dimen name="default_margin">0dp</dimen>
+    <dimen name="full_screen_dialog_margin_top">16dp</dimen>
+    <dimen name="full_screen_dialog_margins">16dp</dimen>
+</resources>

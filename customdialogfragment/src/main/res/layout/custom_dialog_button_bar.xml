@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.v7.widget.ButtonBarLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/buttonPanel"
+    style="?attr/buttonBarStyle"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layoutDirection="locale"
+    android:minHeight="52dp"
+    android:orientation="horizontal"
+    android:paddingBottom="4dp"
+    android:paddingLeft="12dp"
+    android:paddingRight="16dp"
+    android:paddingTop="4dp"
+    app:allowStacking="true">
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/buttonNeutral"
+        style="@style/BorderlessButton.Link"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <android.support.v4.widget.Space
+        android:id="@+id/spacer"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:visibility="invisible" />
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/buttonNegative"
+        style="@style/BorderlessButton.Link"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/buttonPositive"
+        style="@style/ButtonPositiveWithRipple"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right|center_vertical"
+        android:ellipsize="end"
+        android:singleLine="true"
+        android:stateListAnimator="@null" />
+
+</android.support.v7.widget.ButtonBarLayout>

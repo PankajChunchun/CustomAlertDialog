@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">CustomDialogFragment</string>
+    <string name="dialog_alert_icon">alert icon</string>
+</resources>

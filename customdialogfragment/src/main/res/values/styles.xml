@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="BorderlessButtonStyle" parent="Widget.AppCompat.Button.Borderless">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="BorderlessButton.Link" parent="BorderlessButtonStyle">
+        <item name="android:textColor">@color/borderless_btn_textcolor_selector</item>
+        <item name="colorControlHighlight">@color/colorCntrlHighlightBorderlessBtn</item>
+        <item name="android:minHeight">48dip</item>
+        <item name="android:minWidth">88dip</item>
+    </style>
+
+    <style name="ButtonStyle" parent="Base.Widget.AppCompat.Button">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="ButtonPositiveWithRipple" parent="ButtonStyle">
+        <item name="android:textColor">@drawable/custom_dialog_textcolor_selector</item>
+        <item name="android:background">@drawable/custom_dialog_positive_btn_selector</item>
+        <item name="android:paddingLeft">16dp</item>
+        <item name="android:paddingRight">16dp</item>
+        <item name="android:minHeight">36dp</item>
+        <item name="android:minWidth">88dp</item>
+    </style>
+
+    <!-- Base style for typefaces. -->
+    <style name="TextStyle">
+
+        <!--  <item name="android:fontFamily">sans-serif</item>-->
+    </style>
+
+    <style name="TextStyle.Regular" parent="TextStyle">
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <!-- Modal title. -->
+    <style name="Text.DialogTitle_DG" parent="TextStyle.Regular">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/colorPrimaryDarkButtonText</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!-- Body1 text -->
+    <style name="Text.Body_B1" parent="TextStyle.Regular">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/colorPrimaryDarkButtonText</item>
+
+    </style>
+
+    <style name="Text.Body_IN" parent="TextStyle.Regular">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/colorPrimaryDarkButtonText</item>
+
+    </style>
+
+    <style name="CustomDialogAnimation">
+        <item name="android:windowEnterAnimation">@anim/custom_dialog_fade_in_animation</item>
+        <item name="android:windowExitAnimation">@anim/custom_dialog_fade_out_animation</item>
+    </style>
+</resources>
